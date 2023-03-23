@@ -7,6 +7,11 @@ import java.util.UUID;
 
 public class BalanceRepository {
 
+    /*
+        Create Rest GET Endpoint, which returns value of balance based on given user's UUID.
+        You can change / delete everything. Our source of data is Map with users UUIDs and their balances [BigDecimal].
+        You can google.
+     */
     private static Map<UUID, BigDecimal> uuidBalanceMap = new HashMap<>();
 
     public BalanceRepository() {
